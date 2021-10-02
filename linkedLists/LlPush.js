@@ -13,19 +13,19 @@ class LinkedList {
     this.length = 1;
   }
   push(value) {
-    const NewNode = new Node(value);
-    if (!this.head) {
-      this.head = new Node();
-      this.tail = new Node();
-    } else {
-      this.tail.next = NewNode;
-      this.tail = NewNode;
-    }
-    this.length++;
-    return this;
+      const newNode = new Node(value);
+      if(!this.head) {
+          this.head = new Node;
+          this.tail = new Node;
+      } else {
+          this.tail.now = newNode;
+          this.tail = newNode;
+      }
+      this.length++;
+      return this;
   }
 }
 
-let myLinkedList = new LinkedList(7);
-console.log(myLinkedList);
-console.log(myLinkedList.push(1));
+let myLinkedList = new LinkedList(6);
+console.log(myLinkedList)
+console.log(myLinkedList.push(3))
