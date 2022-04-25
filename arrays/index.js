@@ -1,4 +1,5 @@
-class Vector {
+class Vector //small implementation of array in javascript
+ {
   #array = [null];
   #size = [0];
   #capacity = [];
